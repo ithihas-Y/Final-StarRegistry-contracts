@@ -15,12 +15,12 @@ task("accounts", "Prints the list of accounts", async () => {
 // You need to export an object to set up your config
 // Go to https://hardhat.org/config/ to learn more
 
-const privateKey = "5a1e04f625ca11d4074a18213010842cab29219db8d8e27ada2f43c9ad53948a"; // add metamask privateKey here
+const privateKey = "7fee91bc95b12134f9c3e73a1ebf6a8d151b034202826571f785751f26f98590"; // add metamask privateKey here
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
 module.exports = {
-  defaultNetwork:"BSCTest",//change to BSCMain when deploying
+  defaultNetwork:"BSCMain",//change to BSCMain when deploying
   networks:{
     BSCTest:{
       url:"https://data-seed-prebsc-1-s1.binance.org:8545/",
